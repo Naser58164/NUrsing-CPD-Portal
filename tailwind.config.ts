@@ -9,6 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        brand: {
+          blue: "#0077B6",
+          teal: "#00B4D8",
+          green: "#2E8B57",
+          amber: "#F4A261",
+          red: "#E63946",
+          bg: "#F8FAFC",
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -29,6 +37,10 @@ const config: Config = {
         },
         border: "hsl(var(--border))",
         ring: "hsl(var(--ring))",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        roboto: ["Roboto", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
